@@ -1,0 +1,32 @@
+{
+    "name": "fastjobs.io-task",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Aditya0709-alt/FastJobs.io-Task.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Aditya0709-alt/FastJobs.io-Task/issues"
+    },
+    "homepage": "https://github.com/Aditya0709-alt/FastJobs.io-Task#readme",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "ejs": "^3.1.8",
+        "express": "^4.18.1",
+        "fs": "^0.0.1-security",
+        "mongoose": "^6.3.6",
+        "multer": "^1.4.5-lts.1",
+        "nodemon": "^2.0.16",
+        "read-excel-file": "^5.3.3",
+        "xlsx-to-json-lc": "^0.5.0"
+    }
+}
